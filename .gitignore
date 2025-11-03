@@ -1,0 +1,103 @@
+# ========================
+# Visual Studio / IDE
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+
+# ========================
+# Build outputs
+# ========================
+bin/
+obj/
+out/
+TestResults/
+*.log
+*.vspscc
+
+# ========================
+# Rider / JetBrains
+# ========================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ========================
+# .NET / Entity Framework
+# ========================
+*.dbmdl
+*.dbproj.user
+*.pdb
+*.dll
+*.exe
+*.cache
+*.class
+*.manifest
+*.snap
+*.dotCover
+*.ncrunch*
+_ReSharper*/
+_ReSharper.Caches/
+*.DotSettings.user
+*.dotCover
+
+# ========================
+# User secrets
+# ========================
+secrets.json
+appsettings.Development.json
+*.user
+*.env
+
+# ========================
+# Migrations (optional)
+# ========================
+# Uncomment if you want to ignore migrations
+# Migrations/
+
+# ========================
+# PostgreSQL / Database
+# ========================
+*.pgsql
+*.sql
+*.dump
+*.bak
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+*.env
+**/volumes/
+**/tmp/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+*.trace
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ========================
+# Misc
+# ========================
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
